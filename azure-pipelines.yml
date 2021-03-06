@@ -1,1 +1,8 @@
-
+- task: Prisma Cloud IaC Scan@3
+  inputs:
+    Path: '.'
+    prismaCloudService: 'SEsandbox'
+    High: '1'
+    Medium: '1'
+    Low: '1'
+    Operator: 'or'
